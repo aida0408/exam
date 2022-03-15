@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .polaroid{
     width: 40%;
 
@@ -11,7 +12,7 @@
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    border: 1px solid #262424;
+    border: 2px solid #262424;
 
 }
 .big-img{
@@ -29,10 +30,15 @@
 .small-images{
     display: flex;
     justify-content: center;
+
 }
 .small-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    padding: 20px;
 
+}
+.small-wrapper.active{
+    border-color: #38f616;
 }
